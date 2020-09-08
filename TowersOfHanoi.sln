@@ -1,8 +1,8 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowersOfHanoi", "TowersOfHanoi\TowersOfHanoi.csproj", "{BB02CC39-47CE-4808-BBA0-3276C1E668FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowersOfHanoi.Tests", "TowersOfHanoi.Tests\TowersOfHanoi.Tests.csproj", "{EE035A36-CBE0-49DE-B09D-39EB0232F842}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowersOfHanoiTests", "TowersOfHanoi.Tests\TowersOfHanoiTests.csproj", "{FF46C301-54A8-402A-91BD-079F5EA14F45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +14,9 @@ Global
 		{BB02CC39-47CE-4808-BBA0-3276C1E668FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB02CC39-47CE-4808-BBA0-3276C1E668FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB02CC39-47CE-4808-BBA0-3276C1E668FA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EE035A36-CBE0-49DE-B09D-39EB0232F842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EE035A36-CBE0-49DE-B09D-39EB0232F842}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EE035A36-CBE0-49DE-B09D-39EB0232F842}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EE035A36-CBE0-49DE-B09D-39EB0232F842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF46C301-54A8-402A-91BD-079F5EA14F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF46C301-54A8-402A-91BD-079F5EA14F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF46C301-54A8-402A-91BD-079F5EA14F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF46C301-54A8-402A-91BD-079F5EA14F45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
