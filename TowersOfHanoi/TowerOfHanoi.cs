@@ -6,10 +6,7 @@
 
         public int NumDisks
         {
-            get
-            {
-                return this.numDisks;
-            }
+            get => this.numDisks;
 
             set
             {
@@ -20,13 +17,13 @@
             }
         }
 
-        public void MoveDisks(int totalDisks, int from, int to, int other)
+        public void MoveDisks(int totalDisks, int sourceTower, int targetTower, int tempTower)
         {
             if (totalDisks > 0)
             {
-                this.MoveDisks(totalDisks - 1, from, other, to);
-                Console.WriteLine($"Move disk {totalDisks} from tower {from} to tower {to}");
-                this.MoveDisks(totalDisks - 1, other, to, from);
+                this.MoveDisks(totalDisks - 1, sourceTower, tempTower, targetTower);
+                Console.WriteLine($"Move disk {totalDisks} from tower {sourceTower} to tower {targetTower}");
+                this.MoveDisks(totalDisks - 1, tempTower, targetTower, sourceTower);
             }
         }
     }
